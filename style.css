@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+}
+/*                 index.html                     */
+
+#pgn1 {
+  background: #fff;
+}
+
+#img-fundo {
+  width: 1920px;
+  height: 964px;
+}
+
+#img-logo {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  bottom: 0px;
+  left: 0;
+  margin: auto;
+}
+
+aside {
+  position: absolute;
+  top: 720px;
+  right: 0px;
+  bottom: 0px;
+  left: 880px;
+}
+
+.sobre {
+  margin: 10px;
+  font-size: 23px;
+  background: #fff;
+  color: #ff8c00;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 0 #ff8c00;
+}
+
+.sobre:hover {
+  background: #cccccc8f;
+}
+.sobre:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+/*                   sobre.html                */
+
+.img-estudo {
+  width: 100%;
+  height: 10%;
+}
+
+#conteudo {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#h1-nome {
+  width: 700px;
+  height: 70px;
+  margin: 0 auto;
+  color: #ff8c00;
+  font-size: 25px;
+}
+
+#objetivo {
+  width: 1000px;
+  height: 150px;
+  margin: 0 auto;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000a4;
+}
+
+#h2-competencia {
+  width: 300px;
+  height: 70px;
+  margin: 0 auto;
+  font-size: 21px;
+  color: #ff8c00;
+}
+
+#lista-competencia {
+  width: 1000px;
+  height: 120px;
+  margin: 0 auto;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000a4;
+}
+
+#h2-experiencias {
+  width: 340px;
+  height: 70px;
+  margin: 0 auto;
+  font-size: 21px;
+  color: #ff8c00;
+}
+
+#experiencias {
+  width: 1000px;
+  height: 150px;
+  margin: 0 auto;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000a4;
+}
+
+#h2-curiosidades {
+  width: 190px;
+  height: 70px;
+  margin: 0 auto;
+  font-size: 21px;
+  color: #ff8c00;
+}
+
+#curiosidades {
+  width: 1000px;
+  height: 180px;
+  margin: 0 auto;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000a4;
+}
+
+#h2-contato {
+  width: 330px;
+  height: 70px;
+  margin: 0 auto;
+  font-size: 28px;
+  color: #ff8c00;
+}
+
+#contato {
+  width: 1000px;
+  height: 1px;
+  margin: 0 auto;
+  background: #ff8c00ab;
+}
+
+#final {
+  width: 700px;
+  height: 140px;
+  margin: 0 auto;
+}
+
+#email {
+  width: 310px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+#fone {
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.red {
+  width: 240px;
+  height: 50px;
+  margin: 0 auto;
+}
+.linkedin {
+  margin: 15px;
+  font-size: 23px;
+  background: #fff;
+  color: #0a66c2;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 0 #0a66c2;
+}
+
+.linkedin:hover {
+  background: #0a66c23d;
+}
+
+.github {
+  margin: 15px;
+  font-size: 23px;
+  background: #fff;
+  color: #0d1117;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 0#0d1117;
+}
+
+.github:hover {
+  background: #0d111750;
+}
+
+/*                              Media Queries                                 */
+
+@media (max-width: 1366px) {
+  /*           index.html           */
+
+  #img-fundo {
+    width: 100%;
+  }
+  #img-logo {
+    margin: 0 auto;
+    margin-top: 15%;
+  }
+  aside {
+    margin: 0 auto;
+    position: absolute;
+    top: 82%;
+    left: 42.5%;
+  }
+}
+
+/*           sobre.html           */
+
+@media (max-width: 1000px) {
+  #conteudo {
+    width: 700px;
+  }
+
+  #objetivo {
+    width: 700px;
+    height: 160px;
+  }
+
+  #h1-nome {
+    height: 80px;
+  }
+
+  #lista-competencia {
+    width: 700px;
+    height: 120px;
+  }
+
+  #experiencias {
+    width: 700px;
+    height: 180px;
+  }
+
+  #curiosidades {
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  #contato {
+    width: 700px;
+    height: 1px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 700px) {
+  #img-fundo {
+    width: 100%;
+  }
+  #img-logo {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15%;
+  }
+  aside {
+    margin: 0 auto;
+    position: absolute;
+    top: 82%;
+    left: 42.5%;
+  }
+
+  #conteudo {
+    width: 350px;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+
+  #h1-nome {
+    width: 290px;
+    height: 110px;
+    font-size: 16px;
+  }
+
+  #objetivo {
+    width: 350px;
+    height: 150px;
+    font-size: 13px;
+  }
+  #h2-competencia {
+    width: 280px;
+    height: 65px;
+    font-size: 16px;
+  }
+
+  #lista-competencia {
+    width: 350px;
+    height: 90px;
+    font-size: 13px;
+  }
+
+  #h2-experiencias {
+    width: 320px;
+    height: 70px;
+    font-size: 16px;
+  }
+
+  #experiencias {
+    width: 350px;
+    height: 165px;
+    font-size: 13px;
+  }
+
+  #h2-curiosidades {
+    width: 160px;
+    font-size: 16px;
+  }
+
+  #curiosidades {
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+  #h2-contato {
+    width: 220px;
+    height: 65px;
+    font-size: 16px;
+  }
+
+  #contato {
+    width: 350px;
+    height: 1px;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+
+  #email {
+    width: 250px;
+    font-size: 13px;
+  }
+
+  #fone {
+    width: 160px;
+    font-size: 13px;
+  }
+  #final {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto;
+  }
+}
